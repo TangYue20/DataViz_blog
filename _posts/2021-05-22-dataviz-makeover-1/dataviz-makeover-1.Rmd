@@ -248,7 +248,7 @@ The basic graph should look like this.
 16. Finally, the visualization dashboard for Top 6 Trading Countries has been completed.
 ![](img_/51.final dashboard.png){width=110%}
 
-## 4. Derived Insight
+## 5. Derived Insight
 **insight 1: Singapore merchandises export to top countries all saw increase but except Malaysia which underwent decrease.**
 
 from the chart, we can see from 2019 to 2020, Singapore export show increase in five top countries, Hong Kong, Japan, Mainland China, Taiwan and US, but Only Singapore export to Malaysia experienced the decrease with only and large decrease rate, -18.24%.
