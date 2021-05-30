@@ -2119,7 +2119,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>No call out to provide context. If static chart, include call outs, text or images to enhance the chart. If interactive, include tooltip details and ability to filter.</p></li>
 </ol>
 <h1 id="alternative-design">2. Alternative Design</h1>
-<p>The alternative design is as follows. <img src="img_/50..png" /></p>
+<p>The alternative design is as follows. <img src="img_/50.scripts.jpg" /></p>
 <h2 id="advantages-of-proposed-design">2.1 Advantages of proposed design</h2>
 <h3 id="clarity-1">Clarity</h3>
 <ol type="1">
@@ -2167,7 +2167,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li>Rename Table 1 as ‘Import’ and Table 2 2 as ‘Export’ save file as ‘Merchandise Trade_v1’.</li>
 </ul>
 <p><img src="img_/4.rename%20table.png" style="width:40.0%" /></p>
-<p><strong>2.Data Preparation with Tableau</strong></p>
+<p><strong>2. Data Preparation with Tableau</strong></p>
 <ol type="1">
 <li>Load file</li>
 </ol>
@@ -2191,7 +2191,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 <p><img src="img_/11.view%20data.png" style="width:40.0%" /></p>
 <ul>
-<li>Export data ans save the file with an appropriate name. <img src="img_/10.export%20data.png" style="width:70.0%" /></li>
+<li>Export data and save the file with an appropriate name. <img src="img_/10.export%20data.png" style="width:70.0%" /></li>
 <li>Repeat step 2 for both Export and Import data. Merge the exported two tables using Excel and add a category column to identify the dataset source. <img src="img_/12.label%20category.png" style="width:70.0%" /></li>
 </ul>
 <h2 id="data-visualization">4.3 Data Visualization</h2>
@@ -2201,16 +2201,16 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>Change data type. Change the data type from String to Date. <img src="img_/17.change%20date%20type.png" style="width:70.0%" /></p></li>
 </ol>
 <p><strong>4. Create Chart</strong></p>
-<p>1 Add Country, Date and Trade Volume to the Rows and Column <img src="img_/18.add%20raws%20and%20column1.png" style="width:120.0%" /></p>
-<ol start="2" type="1">
-<li>Filter Top 6 Country with highest merchandise trade volume. Check ‘Hong kong’,‘Janpan’,‘Taiwan’,‘Mainland China’,‘Unite State’.</li>
+<ol type="1">
+<li><p>Add Country, Date and Trade Volume to the Rows and Column <img src="img_/18.add%20raws%20and%20column1.png" style="width:120.0%" /></p></li>
+<li><p>Filter Top 6 Country with highest merchandise trade volume. Check ‘Hong kong’,‘Janpan’,‘Taiwan’,‘Mainland China’,‘Unite State’.</p></li>
 </ol>
 <p><img src="img_/19.filter%20country.png" style="width:90.0%" /></p>
 <p>Top 6 trading countries have been selected for further analysis and visualization. <img src="img_/20.6%20countries.png" style="width:40.0%" /></p>
 <ol start="3" type="1">
 <li>Filter data in year 2021 because we forgot to Remove data in year 2021 in data preprocess, then we use filter to exclude 2021 year data. Below chart present the import and export volume trend from year 2019 to year2020. <img src="img_/21.filter%20year%202021.png" style="width:100.0%" /></li>
 </ol>
-<p><strong>4. Customization</strong></p>
+<p><strong>5. Customization</strong></p>
 <ol type="1">
 <li>Add Label data on chart.</li>
 </ol>
@@ -2235,56 +2235,57 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>Right Y axis and Unclick shown header <img src="img_/27.unshow%20header.png" style="width:120.0%" /></p></li>
 <li><p>Fit Width. To fix width, click Standard &gt; select Fit Width potion. <img src="img_/28.fix%20width.png" style="width:120.0%" /></p></li>
 </ul>
-<p>The basic graph should look like this. <img src="img_/29.base%20chart.png" style="width:120.0%" /> 4. Add another SUM(Trade Volume) to create dual axis. <img src="img_/30.anthoer%20sum.png" /></p>
-<ol start="5" type="1">
+<p>The basic graph should look like this. <img src="img_/29.base%20chart.png" style="width:120.0%" /> 6. Add another SUM(Trade Volume) to create dual axis. <img src="img_/30.anthoer%20sum.png" /></p>
+<ol start="7" type="1">
 <li>Right click on the bottom Y-axis and select dual axis chart.</li>
 </ol>
 <p><img src="img_/31.dual%20axis.png" style="width:20.0%" /></p>
-<ol start="6" type="1">
+<ol start="8" type="1">
 <li><p>Right click on the right Y-axis, select Synchronize Axis and deselect Show Header. <img src="img_/32.synchroniza%20axis.png" style="width:25.0%" /></p></li>
 <li><p>Change panel from Automatic to Circle to show marks in the main graph <img src="img_/33.select%20circle.png" style="width:20.0%" /></p></li>
 <li><p>Click the Size in Marks and resize to desired level.</p></li>
 </ol>
 <p><img src="img_/34.change%20size.png" style="width:30.0%" /></p>
-<ol start="9" type="1">
+<ol start="11" type="1">
 <li><p>Drag one more SUM(Trade Volume) in the Rows table &gt; click the down arrow &gt; click Create a Quick Table Calculation &gt; select Percent Difference. <img src="img_/35.create%20quick%20calculation.png" style="width:50.0%" /></p></li>
 <li><p>Select Edit Table Calculation and click Pane (across) option.</p></li>
 </ol>
 <p><img src="img_/36.pane%20select.png" style="width:30.0%" /></p>
-<ol start="11" type="1">
+<ol start="13" type="1">
 <li>Double click the second SUM(Trade Volume) in Row tab, copy the formula.</li>
 </ol>
 <p><img src="img_/37.%20formula.png" style="width:120.0%" /></p>
-<ol start="12" type="1">
+<ol start="14" type="1">
 <li>Create a calculated field for Difference variable for Positive and Negative values. Repeat for the positive values.</li>
 </ol>
 <p><img src="img_/38.create%20calculated%20field.png" style="width:30.0%" /></p>
 <ul>
 <li>Paste the formula above for the Difference formula <img src="img_/39.difference.png" style="width:100.0%" /></li>
 </ul>
-<ol start="13" type="1">
+<ol start="15" type="1">
 <li>Use the following formula to create Negative and Positive values. <img src="img_/41.%20negative.png" style="width:100.0%" /></li>
 </ol>
 <ul>
 <li>Repeat for the positive values. <img src="img_/42.positive.png" style="width:100.0%" /></li>
 </ul>
-<ol start="14" type="1">
+<ol start="16" type="1">
 <li>Drag both the Negative and Positive values to the second axis in label tab.</li>
 </ol>
 <ul>
 <li>click Label in Marks &gt; click Show Mark Labels &gt; select the Most Recent option &gt; select Scope in Pane</li>
 <li>select the Text to recolor Negative text to Red <img src="img_/43.%20pane%20and%20text%20setting.png" style="width:100.0%" /></li>
 </ul>
-<ol start="15" type="1">
+<ol start="17" type="1">
 <li>Right click on the main graph area and select annotate.</li>
 </ol>
 <ul>
 <li>Type in insights and observations in the text area.</li>
 <li>Arrange, resize, or format the resulting text box if required. <img src="img_/44.%20annotate.png" style="width:110.0%" /></li>
 </ul>
-<ol start="16" type="1">
-<li>Finally, the visualization dashboard for Top 6 Trading Countries has been completed. <img src="img_/51.final%20dashboard.png" style="width:110.0%" /></li>
+<ol start="18" type="1">
+<li>Finally, the visualization dashboard for Top 6 Trading Countries has been completed.</li>
 </ol>
+<p><img src="img_/51.final%20dashboard.png" style="width:110.0%" /></p>
 <h2 id="derived-insight">5. Derived Insight</h2>
 <p><strong>insight 1: Singapore merchandises exports to top countries all increase except that to Malaysia which underwent decrease.</strong></p>
 <p>from the chart, we can see from 2019 to 2020, Singapore’s export show increase in five top countries, Hong Kong, Japan, Mainland China, Taiwan and US, but Only Singapore export to Malaysia experienced the decrease with only and large decrease rate, -18.24%.</p>

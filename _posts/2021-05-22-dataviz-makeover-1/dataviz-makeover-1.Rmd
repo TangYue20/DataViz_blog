@@ -56,7 +56,7 @@ The original visualization can be seen below.
 
 # 2. Alternative Design
 The alternative design is as follows.
-![](img_/50..png)
+![](img_/50.scripts.jpg)
 
 ## 2.1 Advantages of proposed design
 ### Clarity
@@ -110,7 +110,7 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 
 ![](img_/4.rename table.png){width=40%}
 
-**2.Data Preparation with Tableau**
+**2. Data Preparation with Tableau**
 
 1. Load file
 * Create a new workbook and click Connect to Data.
@@ -139,7 +139,7 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 
 ![](img_/11.view data.png){width=40%}
 
-* Export data ans save the file with an appropriate name.
+* Export data and save the file with an appropriate name.
 ![](img_/10.export data.png){width=70%}
 * Repeat step 2 for both Export and Import data. Merge the exported two tables using Excel and add a category column to identify the dataset source.
 ![](img_/12.label category.png){width=70%}
@@ -155,7 +155,7 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 
 **4. Create Chart**
 
-1 Add Country, Date and Trade Volume to the Rows and Column
+1. Add Country, Date and Trade Volume to the Rows and Column
 ![](img_/18.add raws and column1.png){width=120%}
 
 2. Filter Top 6 Country with highest merchandise trade volume. Check 'Hong kong','Janpan','Taiwan','Mainland China','Unite State'.
@@ -169,7 +169,7 @@ Top 6 trading countries have been selected for further analysis and visualizatio
 because we forgot to Remove data in year 2021 in data preprocess, then we use filter to exclude 2021 year data. Below chart present the import and export volume trend from year 2019 to year2020.
 ![](img_/21.filter year 2021.png){width=100%}
 
-**4. Customization**
+**5. Customization**
 
 1. Add Label data on chart.
 * Click Label in Text Mark Card
@@ -194,58 +194,59 @@ because we forgot to Remove data in year 2021 in data preprocess, then we use fi
 
 The basic graph should look like this.
 ![](img_/29.base chart.png){width=120%}
-4. Add another SUM(Trade Volume) to create dual axis.
+6. Add another SUM(Trade Volume) to create dual axis.
 ![](img_/30.anthoer sum.png)
 
-5. Right click on the bottom Y-axis and select dual axis chart.
+7. Right click on the bottom Y-axis and select dual axis chart.
 
 ![](img_/31.dual axis.png){width=20%}
 
-6. Right click on the right Y-axis, select Synchronize Axis and deselect Show Header.
+8. Right click on the right Y-axis, select Synchronize Axis and deselect Show Header.
 ![](img_/32.synchroniza axis.png){width=25%}
-7. Change panel from Automatic to Circle to show marks in the main graph
+9. Change panel from Automatic to Circle to show marks in the main graph
 ![](img_/33.select circle.png){width=20%}
 
-8. Click the Size in Marks and resize to desired level.
+10. Click the Size in Marks and resize to desired level.
 
 ![](img_/34.change size.png){width=30%}
 
-9. Drag one more SUM(Trade Volume) in the Rows table > click the down arrow > click Create a Quick Table Calculation > select Percent Difference. 
+11. Drag one more SUM(Trade Volume) in the Rows table > click the down arrow > click Create a Quick Table Calculation > select Percent Difference. 
 ![](img_/35.create quick calculation.png){width=50%}
 
-10. Select Edit Table Calculation and click Pane (across) option.
+12. Select Edit Table Calculation and click Pane (across) option.
 
 ![](img_/36.pane select.png){width=30%}
 
-11. Double click the second SUM(Trade Volume) in Row tab, copy the formula.
+13. Double click the second SUM(Trade Volume) in Row tab, copy the formula.
 
 ![](img_/37. formula.png){width=120%}
 
-12. Create a calculated field for Difference variable for Positive and Negative values. Repeat for the positive values.
+14. Create a calculated field for Difference variable for Positive and Negative values. Repeat for the positive values.
 
 ![](img_/38.create calculated field.png){width=30%}
 
 * Paste the formula above for the Difference formula
 ![](img_/39.difference.png){width=100%}
-13. Use the following formula to create Negative and Positive values.
+15. Use the following formula to create Negative and Positive values.
 ![](img_/41. negative.png){width=100%}
 
 * Repeat for the positive values.
 ![](img_/42.positive.png){width=100%}
 
-14. Drag both the Negative and Positive values to the second axis in label tab.
+16. Drag both the Negative and Positive values to the second axis in label tab.
 
 * click Label in Marks > click Show Mark Labels > select the Most Recent option > select Scope in Pane
 * select the Text to recolor Negative text to Red
 ![](img_/43. pane and text setting.png){width=100%}
 
-15. Right click on the main graph area and select annotate.
+17. Right click on the main graph area and select annotate.
 
 * Type in insights and observations in the text area. 
 * Arrange, resize, or format the resulting text box if required.
 ![](img_/44. annotate.png){width=110%}
 
-16. Finally, the visualization dashboard for Top 6 Trading Countries has been completed.
+18. Finally, the visualization dashboard for Top 6 Trading Countries has been completed.
+
 ![](img_/51.final dashboard.png){width=110%}
 
 ## 5. Derived Insight
