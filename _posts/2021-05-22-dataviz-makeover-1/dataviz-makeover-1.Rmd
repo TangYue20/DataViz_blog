@@ -163,10 +163,10 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 ![](img_/18.add raws and column1.png){width=120%}
 
 2. Filter Top 6 Country with highest merchandise trade volume. Check 'Hong kong','Janpan','Taiwan','Mainland China','Unite State'.
-
 ![](img_/19.filter country.png){width=90%}
 
-Top 6 trading countries have been selected for further analysis and visualization.
+* Top 6 trading countries have been selected for further analysis and visualization.
+
 ![](img_/20.6 countries.png){width=40%}
 
 3. Filter data in year 2021
@@ -180,7 +180,7 @@ because we forgot to Remove data in year 2021 in data preprocess, then we use fi
 * Select Show Mark Label and click Line Ends to make the labels only appear on the line end. Otherwise, the chart would be too cluttered.
 ![](img_/22.label data on chart.png){width=120%}
 2. Change axis and data unit
-* Right-click on one of the labels > Format… to open the Format Pane.
+* Right-click on one of the labels > click Format to open the Format Pane.
 * Click on Field and select Axis, Change Number axis unit to Million. 
 ![](img_/23.change axis unit.png){width=120%}
 * Click Pane > Default > change Number to Million.
@@ -198,6 +198,7 @@ because we forgot to Remove data in year 2021 in data preprocess, then we use fi
 
 The basic graph should look like this.
 ![](img_/29.base chart.png){width=120%}
+
 6. Add another SUM(Trade Volume) to create dual axis.
 ![](img_/30.anthoer sum.png)
 
@@ -215,6 +216,7 @@ The basic graph should look like this.
 ![](img_/34.change size.png){width=30%}
 
 11. Drag one more SUM(Trade Volume) in the Rows table > click the down arrow > click Create a Quick Table Calculation > select Percent Difference. 
+
 ![](img_/35.create quick calculation.png){width=50%}
 
 12. Select Edit Table Calculation and click Pane (across) option.
