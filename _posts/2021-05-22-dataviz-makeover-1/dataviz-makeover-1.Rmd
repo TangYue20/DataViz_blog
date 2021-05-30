@@ -74,7 +74,7 @@ The alternative design is as follows.
 
 
 # 3. Final Visualisation
-![](img_/46.Final2.png)
+![](img_/51.final dashboard.png)
 The final look of the data visualization makeover is shown in Figure 4. It is also available in [*Tableau Public*](https://public.tableau.com/app/profile/yue.tang/viz/SingaporeMerchandiseTrade_Tableau/SGMerchandiseTradeDashboard). 
 
 
