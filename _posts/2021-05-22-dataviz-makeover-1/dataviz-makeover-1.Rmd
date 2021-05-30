@@ -153,8 +153,7 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 3. Change data type. Change the data type from String to Date.
 ![](img_/17.change date type.png){width=70%}
 
-## Top 6 Trading Countries Visualization 
-**1. Create Chart**
+**4. Create Chart**
 
 1 Add Country, Date and Trade Volume to the Rows and Column
 ![](img_/18.add raws and column1.png){width=120%}
@@ -170,7 +169,7 @@ Top 6 trading countries have been selected for further analysis and visualizatio
 because we forgot to Remove data in year 2021 in data preprocess, then we use filter to exclude 2021 year data. Below chart present the import and export volume trend from year 2019 to year2020.
 ![](img_/21.filter year 2021.png){width=100%}
 
-**2. Customization**
+**4. Customization**
 
 1. Add Label data on chart.
 * Click Label in Text Mark Card
@@ -250,7 +249,7 @@ The basic graph should look like this.
 ![](img_/51.final dashboard.png){width=110%}
 
 ## 4. Derived Insight
-**insight 1: Singapore export to top countries all saw increase but except Malaysia which underwent decrease.**
+**insight 1: Singapore merchandises export to top countries all saw increase but except Malaysia which underwent decrease.**
 
 from the chart, we can see from 2019 to 2020, Singapore export show increase in five top countries, Hong Kong, Japan, Mainland China, Taiwan and US, but Only Singapore export to Malaysia experienced the decrease with only and large decrease rate, -18.24%.
 
