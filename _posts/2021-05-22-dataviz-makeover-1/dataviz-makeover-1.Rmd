@@ -149,8 +149,10 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 ![](img_/13.import cleaned data.png){width=90%}
 2. Rename Column header. Changed the original column headers in Pivot Field Names and make their name easier to understand.Rename Export and Import values column to Trade Volume.
 
-
 ![](img_/14.rename trade volumn.png){width=90%}
+
+
+
 
 3. Change data type. Change the data type from String to Date.
 ![](img_/17.change date type.png){width=70%}
