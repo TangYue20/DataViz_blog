@@ -249,9 +249,9 @@ The basic graph should look like this.
 ![](img_/51.final dashboard.png){width=110%}
 
 ## 5. Derived Insight
-**insight 1: Singapore merchandises export to top countries all saw increase but except Malaysia which underwent decrease.**
+**insight 1: Singapore merchandises exports to top countries all increase except that to Malaysia which underwent decrease.**
 
-from the chart, we can see from 2019 to 2020, Singapore export show increase in five top countries, Hong Kong, Japan, Mainland China, Taiwan and US, but Only Singapore export to Malaysia experienced the decrease with only and large decrease rate, -18.24%.
+from the chart, we can see from 2019 to 2020, Singapore's export show increase in five top countries, Hong Kong, Japan, Mainland China, Taiwan and US, but Only Singapore export to Malaysia experienced the decrease with only and large decrease rate, -18.24%.
 
 
 **Insight 2: Singapore largest import and export trade partner is Mainland China and its import and export with China are most stable from 2019 to 2020**
