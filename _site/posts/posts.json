@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-06-16-dataviz-makeover-2/",
+    "title": "DataViz Makeover 2- Singapore Merchandise Trade",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Tang Yue",
+        "url": {}
+      }
+    ],
+    "date": "2021-06-16",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-06-16T16:51:28+08:00",
+    "input_file": "dataviz-makeover-2-singapore-merchandise-trade.knit.md"
+  },
+  {
     "path": "posts/2021-05-22-dataviz-makeover-1/",
     "title": "DataViz Makeover 1- Singapore Merchandise Trade",
     "description": "A data visualization makeover for course ISSS608: Visual Analytics and Application",
