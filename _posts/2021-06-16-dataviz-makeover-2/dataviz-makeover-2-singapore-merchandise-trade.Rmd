@@ -39,7 +39,7 @@ The original visualization can be seen below.
 
 ## 1.2 Aesthetics
 
-1. The Color used for differentiate 'Net Importers' and 'Net Exporters' are not distinct, which cannot makes readers quickly clarify there are two different groups based on import and export comparison.
+1. The color used for differentiate 'Net Importers' and 'Net Exporters' are not distinct, which cannot makes readers quickly clarify two different groups with different relationship of import and export values.
 
 2. The image are not necessary as it does not enhance the conveyance of information.
 
@@ -56,9 +56,9 @@ The alternative design is as follows.
 
 1. Title and subtitle explain key information and finding which would be used in chart, helping for readers' understanding. 
 
-2. Y-axis and x-axis are added with unit, enabling reader easily understand the import and export volume across different years and countries..
+2. Y-axis and x-axis are added with unit, enabling reader easily understand the import and export volume across different years and countries.
 
-3. Dumbbell chart clearly show the difference of import and export for Singapore merchandise with one country, which also could make it possible to compare export and import vertically and horizontally.
+3. Dumbbell chart clearly show the difference of import and export for Singapore merchandise with one country, which also make it possible to compare export and import vertically and horizontally.
 
 4. Use percentile to show the distribution of import and export for Singapore merchandise trade with major countries, which spread bubbles of countries into quadrant ' High Import and High Export', ' High Import and Low Export', ' High Export and Low Import, Low Export and Low Import',  then countries would distinctly show their trade situation with Singapore.
 
