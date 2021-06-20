@@ -164,20 +164,20 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 1. Drag the Country dimensions to columns and drag the Trading Volume measure to rows.
 
-![](image/18.drag raws and column.png){width=90%}
+![](image/18.drag raws and column.png)
 
 
-2.  we care more about Singapore merchandise trade with major countries, so we use filter to select major countries. Drag Country from Tables to Filters box > click Edit Filters.
+2.  We care about Singapore merchandise trade with major countries, so we use filter to select major countries. Drag Country from Tables to Filters box > click Edit Filters.
 
-![](image/19.2 edit country filter.png){width=90%}
+![](image/19.2 edit country filter.png)
 
 3. Next click None first and select  Check 10 countries, they are 'Hong kong','Republic of Korea', 'Japan','Taiwan','Mainland China','Unite State', Indonesia', 'Thailand', ' Europe Union' and 'Taiwan' respectively.
 
-![](image/19.3 click 9 countries.png){width=90%}
+![](image/19.3 click 9 countries.png)
 
-4.. Change the chart type to circle. click Marks > click Automatic < select Circle.
+4.Change the chart type to circle. click Marks > click Automatic < select Circle.
 
-![](image/20..png){width=90%}
+![](image/20..png)
 
 5. Drag one more Trading Volume from Tables to Raws.
 
