@@ -39,17 +39,17 @@ The original visualization can be seen below.
 
 ## 1.2 Aesthetics
 
-1. the Color used for differentiate 'Net Importers' and 'Net Exporters' are not distinct, which cannot makes readers quickly clarify there are two different groups based on import and export comparison.
+1. The Color used for differentiate 'Net Importers' and 'Net Exporters' are not distinct, which cannot makes readers quickly clarify there are two different groups based on import and export comparison.
 
 2. The image are not necessary as it does not enhance the conveyance of information.
 
-3. the chart looks too intensive and the label are very big, which would add reading difficulties for users.
+3. The chart looks too crowed and the label are very big, which would add reading difficulties for users.
 
 
 # 2. Alternative Design
 The alternative design is as follows.
 
-![](image/72.scipts.jpg){width=70%}
+![](image/72.scipts.jpg){width=90%}
 
 ## 2.1 Advantages of proposed design
 ### Clarity
@@ -69,7 +69,7 @@ The alternative design is as follows.
 
 ### Aesthetic
 
-1. there are 4 distinct colors for 4 quadrant, which used in chart to identify four group of countries which have different import and export volume with Singapore. 
+1. There are 4 distinct colors for 4 quadrant, which used in chart to identify four group of countries which have different import and export volume with Singapore. 
 
 2. Use percentile to show the distribution of import and export for Singapore merchandise trade with major countries, which avoid the overlap of bubbles on the chart
 
@@ -78,7 +78,7 @@ The alternative design is as follows.
 
 # 3. Final Visualisation
 
-![](image/0.1 final dashboard.png){width=80%}
+![](image/0.1 final dashboard.png){width=90%}
 
 The final look of the data visualization makeover is shown in Figure 4. It is also available in [*Tableau Public*](https://public.tableau.com/app/profile/yue.tang/viz/DataDiz_Makeover3/Dashboard1)
 
@@ -99,18 +99,18 @@ provided by [*Merchandise Trade by Region/Market*](https://www.singstat.gov.sg/f
 1. Transpose data
 * For the convenience of data proprocessing, we transpose(rotate) data from rows to column.
 Click T1 sheet > Select the entire table > create a new sheet
-![](image/4. copy table.png){width=80%}
+![](image/4. copy table.png){width=90%}
 
 * click a empty cell > right click and select 'Transpose'.
 
-![](image/2.transform data.png){width=30%}
+![](image/2.transform data.png){width=50%}
 
 * Rename the new sheet as 'Import'. Repeat the transposing operation for T2 and rename as 'Export'
 
-![](image/3.rename table.png){width=60%}
+![](image/3.rename table.png){width=80%}
 
 *  because study period is between January 2011-December 2020.Delete our target data is from January 1967 to  December 2020.
-![](image/2.2 delete unnecessary date.png){width=70%}
+![](image/2.2 delete unnecessary date.png){width=80%}
 
 
 **2. Data Preparation with Tableau**
@@ -119,29 +119,29 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 * open Tableau and drag  “output” file to the landing page of Tableau.
 
-![](image/5.load data.png){width=80%}
+![](image/5.load data.png){width=90%}
 
 * Drag New Union to the workspace.
 
-![](image/6.new union.png){width=80%}
+![](image/6.new union.png){width=90%}
 
 * Drag 'Import' and 'Export' into Union workplace.
 
-![](image/7.new union2.png){width=80%}
+![](image/7.new union2.png){width=90%}
 
 * Check Clean with Data Interpreter checkbox to allow Tableau to do automatic cleaning. Tableau is able to intelligently detect valuable columns and rows, and drop the empty ones.
 
-![](image/8.use data.png){width=80%}
+![](image/8.use data.png){width=90%}
 
 2. Pivot data and further process data
 
 * Select all countries > right click and select pivot. 
 
-![](image/9.pivot.png){width=80%}
+![](image/9.pivot.png){width=90%}
 
 * Rename headers to Country, Trading Volume, Date and Trading Category accordingly.
 
-![](image/10.rename.png){width=110%}
+![](image/10.rename.png){width=90%}
 
 
 * There is a column containing trading category information, so we hide th redundant column Table Name.
@@ -164,28 +164,28 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 1. Drag the Country dimensions to columns and drag the Trading Volume measure to rows.
 
-![](image/18.drag raws and column.png){width=80%}
+![](image/18.drag raws and column.png){width=90%}
 
 
 2.  we care more about Singapore merchandise trade with major countries, so we use filter to select major countries. Drag Country from Tables to Filters box > click Edit Filters.
 
-![](image/19.2 edit country filter.png){width=80%}
+![](image/19.2 edit country filter.png){width=90%}
 
 3. Next click None first and select  Check 10 countries, they are 'Hong kong','Republic of Korea', 'Japan','Taiwan','Mainland China','Unite State', Indonesia', 'Thailand', ' Europe Union' and 'Taiwan' respectively.
 
-![](image/19.3 click 9 countries.png){width=80%}
+![](image/19.3 click 9 countries.png){width=90%}
 
 4.. Change the chart type to circle. click Marks > click Automatic < select Circle.
 
-![](image/20..png){width=80%}
+![](image/20..png){width=90%}
 
 5. Drag one more Trading Volume from Tables to Raws.
 
-![](image/21. add one more trading volume.png){width=80%}
+![](image/21. add one more trading volume.png){width=90%}
 
 6. Next Change similarly change the second chart type to Line.
 
-![](image/22.change to line.png){width=80%}
+![](image/22.change to line.png){width=90%}
 
 7. Drag the Trading Category from Tables to Color in Marks. 
 
