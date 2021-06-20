@@ -119,42 +119,42 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 * open Tableau and drag  “output” file to the landing page of Tableau.
 
-![](image/5.load data.png){width=90%}
+![](image/5.load data.png)
 
 * Drag New Union to the workspace.
 
-![](image/6.new union.png){width=90%}
+![](image/6.new union.png)
 
 * Drag 'Import' and 'Export' into Union workplace.
 
-![](image/7.new union2.png){width=90%}
+![](image/7.new union2.png)
 
 * Check Clean with Data Interpreter checkbox to allow Tableau to do automatic cleaning. Tableau is able to intelligently detect valuable columns and rows, and drop the empty ones.
 
-![](image/8.use data.png){width=90%}
+![](image/8.use data.png)
 
 2. Pivot data and further process data
 
 * Select all countries > right click and select pivot. 
 
-![](image/9.pivot.png){width=90%}
+![](image/9.pivot.png)
 
 * Rename headers to Country, Trading Volume, Date and Trading Category accordingly.
 
-![](image/10.rename.png){width=90%}
+![](image/10.rename.png)
 
 
 * There is a column containing trading category information, so we hide th redundant column Table Name.
 
-![](image/11.hide more table.png){width=90%}
+![](image/11.hide more table.png)
 
 * Click column 'Date' and Change its data type from 'String' to 'Date'.
 
-![](image/12.change date type.png){width=90%}
+![](image/12.change date type.png)
 
 * Change the unit of EU(European Union). Click Trading Volume < select Create Calculated Field < Using the below formula to change unit of EU. Next, Rename the original Trading Volume to Trading Volume1 and revised Trading Volume as Trading Volume.
 
-![](image/17.2change eu unite formular.png){width=90%}
+![](image/17.2change eu unite formular.png)
 
 ## 4.3 Data Visualization
 
