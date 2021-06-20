@@ -39,7 +39,7 @@ The original visualization can be seen below.
 
 ## 1.2 Aesthetics
 
-1. The color used for differentiate 'Net Importers' and 'Net Exporters' are not distinct, which cannot makes readers quickly clarify two groups with different relationship of import and export values.
+1. The color used for differentiate 'Net Importers' and 'Net Exporters' are not distinct, which cannot makes readers quickly clarify two groups of different relationship of import and export values.
 
 2. The image are not necessary as it does not enhance the conveyance of information.
 
