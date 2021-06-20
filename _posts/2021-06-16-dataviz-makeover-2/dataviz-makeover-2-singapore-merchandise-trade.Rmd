@@ -282,7 +282,7 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 6. Drag Country into Filters to filter 9 countries > first click None > select 10 countries in country list, 'Hong kong','Janpan','Taiwan','Mainland China','Unite State' etc.
 
-![](image/38.add country filter.png){width=70%}
+![](image/38.add country filter.png){width=90%}
 
 7. Click the triangle of SUM(Export) in Columns > select Quick Calculation > Percentile. 
 
@@ -290,14 +290,15 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 8. Click the triangle of  SUM(Export) in Columns again > select Edit Table Calculation > Select the Specific Dimension and click Country.
 
-![](image/40. edit percentile.png){width=80%}
+![](image/40. edit percentile.png){width=90%}
 
 9. Using the same way, we change the SUM(Import) in Rows into Percentile. 
 
-![](image/41. export percentile.png){width=70%}
+![](image/41. export percentile.png){width=90%}
 
 * Click Edit Calculation > select Specific Dimensions and make sure Country is checked as well.
-![](image/41.2 impotrt percentile edit.png){width=70%}
+
+![](image/41.2 impotrt percentile edit.png){width=90%}
 
 10. Drag the SUM(Import) in Rows and SUM(Export) in Columns into Tables, and rename them as "Import Percentile" and " Export Percentile" respectively. Then the SUM(Import) in Rows and SUM(Export) in Columns would change into "Import Percentile" and " Export Percentile" as shown below.
 
@@ -305,15 +306,15 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 11. click Export Percentile in Tables > select Default Properties > Number Format
 
-![](image/42.2 change percentile type.png){width=60%}
+![](image/42.2 change percentile type.png){width=90%}
 
 12. Select Percentage and change the Decimal Places to 0. And we use the same method to change the Import Percentile as well, then Import Percentile and Import Percentile change into percentage.
 
-![](image/42.3 change percentile type2.png)
+![](image/42.3 change percentile type2.png) 
 
 13. Next Change the chart type. Click the triangle in Marks and select Circle.
 
-![](image/40.2 change into circle.png){width=90%}
+![](image/40.2 change into circle.png)
 
 14. Next add reference line. Click Analytic beside Data  > Drag Constant Line to chart, then box of Reference Line shown and drag into Export Percentile. use the same way, 
 
@@ -359,7 +360,7 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 23. Drag Ranking of Export and Ranking of Import into Tooltip in Marks.
 
-![](image/53. drag ranking to tool.png){width=90%}
+![](image/53. drag ranking to tool.png)
 
 24. To make the chart more interactive, we add more flexible options for users to select. Add Date to Filter > select Year.
 
