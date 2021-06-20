@@ -11,6 +11,7 @@ output:
   distill::distill_article:
     self_contained: false
 linkcolor: blue
+preview: images/sharpe-ratio.png
 ---
 
 
