@@ -119,15 +119,15 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 * open Tableau and drag  “output” file to the landing page of Tableau.
 
-![](image/5.load data.png)
+![](image/5.load data.png){width=90%}
 
 * Drag New Union to the workspace.
 
-![](image/6.new union.png)
+![](image/6.new union.png){width=90%}
 
 * Drag 'Import' and 'Export' into Union workplace.
 
-![](image/7.new union2.png)
+![](image/7.new union2.png){width=90%}
 
 * Check Clean with Data Interpreter checkbox to allow Tableau to do automatic cleaning. Tableau is able to intelligently detect valuable columns and rows, and drop the empty ones.
 
@@ -181,7 +181,7 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 5. Drag one more Trading Volume from Tables to Raws.
 
-![](image/21. add one more trading volume.png){width=90%}
+![](image/21. add one more trading volume.png)
 
 6. Next Change similarly change the second chart type to Line.
 
@@ -290,7 +290,7 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 8. Click the triangle of  SUM(Export) in Columns again > select Edit Table Calculation > Select the Specific Dimension and click Country.
 
-![](image/40. edit percentile.png){width=90%}
+![](image/40. edit percentile.png)
 
 9. Using the same way, we change the SUM(Import) in Rows into Percentile. 
 
@@ -298,7 +298,7 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 * Click Edit Calculation > select Specific Dimensions and make sure Country is checked as well.
 
-![](image/41.2 impotrt percentile edit.png){width=90%}
+![](image/41.2 impotrt percentile edit.png)
 
 10. Drag the SUM(Import) in Rows and SUM(Export) in Columns into Tables, and rename them as "Import Percentile" and " Export Percentile" respectively. Then the SUM(Import) in Rows and SUM(Export) in Columns would change into "Import Percentile" and " Export Percentile" as shown below.
 
@@ -306,7 +306,7 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 11. click Export Percentile in Tables > select Default Properties > Number Format
 
-![](image/42.2 change percentile type.png){width=90%}
+![](image/42.2 change percentile type.png){width=80%}
 
 12. Select Percentage and change the Decimal Places to 0. And we use the same method to change the Import Percentile as well, then Import Percentile and Import Percentile change into percentage.
 
@@ -351,11 +351,11 @@ Click T1 sheet > Select the entire table > create a new sheet
 
 21. Next create Ranking of Export and Import. Click Analysis > Create Calculated Filed > add new dimension Ranking of Import as below formula > click Default Table Calculation. 
 
-![](image/51. ranking of import.png){width=90%}
+![](image/51. ranking of import.png){width=100%}
  
 22. Next Change the Computing Using from Automation to Country. Using the same way, we create Ranking of Export and Ranking of Total Trading Volume.
  
- ![](image/52. edit rankingg import.png){width=90%}
+ ![](image/52. edit rankingg import.png){width=100%}
 
 
 23. Drag Ranking of Export and Ranking of Import into Tooltip in Marks.
