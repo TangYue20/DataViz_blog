@@ -10,8 +10,6 @@ navbar:
       href: index.html
     - text: "DataViz Makover"
       href: index.html
-    - text: "Assignment"
-      href: index.html
     - text: "Project"
       href: index.html
     - text: "About"

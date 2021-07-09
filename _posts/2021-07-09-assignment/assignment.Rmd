@@ -41,5 +41,5 @@ There are two dataset provides:
 
 ## 2.1 Install and load R package
 
-In this assignment, the tidyverse, ggforce, GGally, plotly R and parcoords packages will be used.
 
+In this assignment, the tidyverse, ggforce, GGally, plotly R and parcoords packages will be used, which could be seen from below code chunk.
