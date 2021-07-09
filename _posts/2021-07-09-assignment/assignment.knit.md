@@ -12,9 +12,7 @@ output:
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 # 1. Overview
 
@@ -37,3 +35,5 @@ In this assignment, the tidyverse, ggforce, GGally, plotly R and parcoords packa
 
 
 
+```{.r .distill-force-highlighting-css}
+```
