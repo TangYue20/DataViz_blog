@@ -12,9 +12,7 @@ output:
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 # 1. Overview
 
@@ -29,3 +27,5 @@ From this data, can you evaluate the changing levels of risk to the public and r
 You also have access to maps of Abila and background documents as well. (Note: these are the same materials provided in Mini-Challenge 1 and Mini-Challenge 2).
 
 
+```{.r .distill-force-highlighting-css}
+```
