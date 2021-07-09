@@ -2,7 +2,7 @@
   {
     "path": "posts/2021-07-09-assignment/",
     "title": "Assignment",
-    "description": "A short description of the post.",
+    "description": "This is a assignment of ISSS608 Visual Analytics and Application. In this assignment, we would like to explor VAST Challenge 2021 and take challenge 3 as task to solve 4 questions involved.",
     "author": [
       {
         "name": "Tang Yue",
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-07-09T15:32:53+08:00",
+    "last_modified": "2021-07-09T15:48:52+08:00",
     "input_file": "assignment.knit.md"
   },
   {
