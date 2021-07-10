@@ -35,7 +35,7 @@ There are two dataset provides:
 (3) maps of Abila and background documents.
 
 
-## 2.1 Install and load R package
+### 2.1 Install and load R package
 
 First, we run the below code to set the environment.
 
@@ -63,11 +63,11 @@ for (p in packages){
 }
 ```
 
-2.2 Import dataset and combine data
+### 2.2 Import dataset and combine data
 
 The data of Microblog records and emergency calls are stored in separate csv files. And three csv files share same columns but data generate from different date, which is shown below.
 
-![]image/1.files.PNG)
+![](image/1.files.PNG)
 
 Firstly, we need to combine 3 files into one consolidated file, which is necessary for the following analysis. In this step, package 'tidyverse' would be used.
 The following R code shows the process of data consolidation, then three dataset with different have been integrated into one file.
@@ -89,6 +89,24 @@ ccdata <- subset(data, type == "ccdata")
 mbdata <- subset(data, type == "mbdata")
 
 ```
+
+### 2.3 Data preprocessing
+
+Date data in table were shown as scientific notation, so we firstly disabling scientifc notation in R for further date processing.
+
+```{r}
+library(lubridate)
+
+options(scipen = 999)
+
+```
+
+Next, package 'lubridate' would be used to convert data type from 'yyyymmddhhmmss' to 'yyyy-mm-dd hh:mm:ss', the code chunk could be seen below.
+
+```{r}
+data$date <- ymd_hms(data$date.yyyyMMddHHmmss.)
+```
+
 
 
 

@@ -2111,7 +2111,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><p>Text transcripts of emergency dispatches by the Abila, Kronos local police and fire departments.</p></li>
 <li><p>maps of Abila and background documents.</p></li>
 </ol>
-<h2 id="install-and-load-r-package">2.1 Install and load R package</h2>
+<h3 id="install-and-load-r-package">2.1 Install and load R package</h3>
 <p>First, we run the below code to set the environment.</p>
 <p>In this assignment, the tidyverse, ggforce, GGally, plotly R and parcoords packages will be used, which could be seen from below code chunk.</p>
 <div class="layout-chunk" data-layout="l-body">
@@ -2127,9 +2127,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </code></pre>
 </div>
 </div>
-<p>2.2 Import dataset and combine data</p>
+<h3 id="import-dataset-and-combine-data">2.2 Import dataset and combine data</h3>
 <p>The data of Microblog records and emergency calls are stored in separate csv files. And three csv files share same columns but data generate from different date, which is shown below.</p>
-<p>[]image/1.files.PNG)</p>
+<p><img src="image/1.files.PNG" /></p>
 <p>Firstly, we need to combine 3 files into one consolidated file, which is necessary for the following analysis. In this step, package ‘tidyverse’ would be used. The following R code shows the process of data consolidation, then three dataset with different have been integrated into one file.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
@@ -2146,6 +2146,23 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ccdata</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>data</span>, <span class='va'>type</span> <span class='op'>==</span> <span class='st'>"ccdata"</span><span class='op'>)</span>
 <span class='va'>mbdata</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>data</span>, <span class='va'>type</span> <span class='op'>==</span> <span class='st'>"mbdata"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<h3 id="data-preprocessing">2.3 Data preprocessing</h3>
+<p>Date data in table were shown as scientific notation, so we firstly disabling scientifc notation in R for further date processing.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://lubridate.tidyverse.org'>lubridate</a></span><span class='op'>)</span>
+
+<span class='fu'><a href='https://rdrr.io/r/base/options.html'>options</a></span><span class='op'>(</span>scipen <span class='op'>=</span> <span class='fl'>999</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>Next, package ‘lubridate’ would be used to convert data type from ‘yyyymmddhhmmss’ to ‘yyyy-mm-dd hh:mm:ss’, the code chunk could be seen below.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span><span class='op'>$</span><span class='va'>date</span> <span class='op'>&lt;-</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/ymd_hms.html'>ymd_hms</a></span><span class='op'>(</span><span class='va'>data</span><span class='op'>$</span><span class='va'>date.yyyyMMddHHmmss.</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
