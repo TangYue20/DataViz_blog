@@ -92,6 +92,7 @@ mbdata <- subset(data, type == "mbdata")
 
 ### 2.3 Data preprocessing
 
+#### 2.3.1 Modifying Date formate  
 Date data in table were shown as scientific notation, so we firstly disabling scientifc notation in R for further date processing.
 
 ```{r}
@@ -101,12 +102,13 @@ options(scipen = 999)
 
 ```
 
-Next, package 'lubridate' would be used to convert data type from 'yyyymmddhhmmss' to 'yyyy-mm-dd hh:mm:ss', the code chunk could be seen below.
+Next, package 'lubridate' would be used to convert data type from 'yyyymmddhhmmss' to 'yyyy-mm-dd hh:mm:ss', and create a new column 'date' in data, and the code chunk could be seen below.
 
 ```{r}
 data$date <- ymd_hms(data$date.yyyyMMddHHmmss.)
 ```
 
+#### 2.3.1 Text proprecessing
 
 
 

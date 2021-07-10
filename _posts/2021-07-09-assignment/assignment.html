@@ -1528,6 +1528,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 </div>
 <h3 id="data-preprocessing">2.3 Data preprocessing</h3>
+<h4 id="modifying-date-formate">2.3.1 Modifying Date formate</h4>
 <p>Date data in table were shown as scientific notation, so we firstly disabling scientifc notation in R for further date processing.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
@@ -1537,13 +1538,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </code></pre>
 </div>
 </div>
-<p>Next, package ‘lubridate’ would be used to convert data type from ‘yyyymmddhhmmss’ to ‘yyyy-mm-dd hh:mm:ss’, the code chunk could be seen below.</p>
+<p>Next, package ‘lubridate’ would be used to convert data type from ‘yyyymmddhhmmss’ to ‘yyyy-mm-dd hh:mm:ss’, and create a new column ‘date’ in data, and the code chunk could be seen below.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span><span class='op'>$</span><span class='va'>date</span> <span class='op'>&lt;-</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/ymd_hms.html'>ymd_hms</a></span><span class='op'>(</span><span class='va'>data</span><span class='op'>$</span><span class='va'>date.yyyyMMddHHmmss.</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
+<h4 id="text-proprecessing">2.3.1 Text proprecessing</h4>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
