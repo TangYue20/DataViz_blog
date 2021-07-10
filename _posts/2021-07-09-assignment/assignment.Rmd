@@ -4,7 +4,7 @@ description: |
   This post is a sub-module of VAST Challenge 2021 and focuses on social media and text analysis. 
 author:
   - name: Tang Yue
-    url: {}
+    url: 
 date: 07-09-2021
 output:
   distill::distill_article:
@@ -12,14 +12,6 @@ output:
 ---
 
 
-```{r setup,include=FALSE}
-options(htmltools.dir.version=FALSE)
-knitr::opts_chunk$set(fig.retina = 3,
-                      echo = TRUE,
-                      eval = TRUE,
-                      message = FALSE,
-                      warning = FALSE)
-```
 
 # 1. Overview
 
@@ -60,10 +52,9 @@ knitr::opts_chunk$set(fig.retina = 3,
 In this assignment, the tidyverse, ggforce, GGally, plotly R and parcoords packages will be used, which could be seen from below code chunk.
 
 
-```{r setup,include=FALSE}
+```{r}
 packages = c('tidyverse','dplyr','readr','HH',
-             'plotly','UpSetR','ggplot2',
-             'timetk','dygraphs')
+             'UpSetR','ggplot2')
 for (p in packages){
   if(!require(p, character.only = T)){
   install.packages(p)
@@ -81,7 +72,7 @@ The data of Microblog records and emergency calls are stored in separate csv fil
 Firstly, we need to combine 3 files into one consolidated file, which is necessary for the following analysis. In this step, package 'tidyverse' would be used.
 The following R code shows the process of data consolidation, then three dataset with different have been integrated into one file.
 
-```{r setup,include=FALSE}
+```{r}
 library(tidyverse)
 table1 <- read.csv("csv-1700-1830.csv")
 table2 <- read.csv("csv-1831-2000.csv")
@@ -93,9 +84,8 @@ data <- rbind(table1, table2,table3)
 
 Next, we would separate 'ccdata' and 'mbdata', they represent microblog record and emergency call center data collected by  the Abila, Kronos local police and fire departments.
 
-```{r setup,include=FALSE}
-data_mb <- subset(data, type == "mbdata")
-data_cc <- subset(data,type == "ccdata")
+```{r}
+
 
 ```
 
